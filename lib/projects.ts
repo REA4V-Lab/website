@@ -117,23 +117,26 @@ const fallbackProjects: Project[] = [
     id: "website",
     index: "04",
     name: "Website",
-    category: "Unreleased",
-    status: "stub",
-    tagline: "The REA4V-Lab organization site itself — reserved, not yet built.",
+    category: "Organization Website",
+    status: "Active",
+    tagline: "The REA4V-Lab organization site itself — working, built.",
     description:
-      "A placeholder repository for what will eventually be REA4V-Lab's own organization website. Right now it holds only a license and a README — no code, no description, no topics. Worth watching if you want to see the lab's home page take shape.",
+      "A repository for the REA4V-Lab's own organization website. Worth watching if you want to see the lab's home page take shape.",
     highlights: [
-      "MIT licensed and ready for a first commit",
-      "No framework or content decided yet — a clean slate",
+      "MIT licensed and deployed",
+      "Using NextJS and TS",
     ],
     stack: ["TBD"],
     meta: [
-      { label: "Contents", value: "LICENSE + README only" },
+      { label: "Contents", value: "LICENSE + WEBSITE CODE" },
       { label: "License", value: "MIT" },
-      { label: "Commits", value: "1" },
-      { label: "Updated", value: "Jul 13, 2026" },
+      { label: "Commits", value: "2" },
+      { label: "Updated", value: "July 14, 2026" },
     ],
-    links: [{ label: "GitHub", href: "https://github.com/REA4V-Lab/Website" }],
+    links: 
+     [{ label: "GitHub", href: "https://github.com/REA4V-Lab/Website" },
+     { label: "GitHub", href: "https://github.com/REA4V-Lab/rinthy-website" },
+    ]
   },
 ];
 
