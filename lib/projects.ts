@@ -118,7 +118,7 @@ const fallbackProjects: Project[] = [
     index: "04",
     name: "Website",
     category: "Organization Website",
-    status: "Active",
+    status: "active",
     tagline: "The REA4V-Lab organization site itself — working, built.",
     description:
       "A repository for the REA4V-Lab's own organization website. Worth watching if you want to see the lab's home page take shape.",
